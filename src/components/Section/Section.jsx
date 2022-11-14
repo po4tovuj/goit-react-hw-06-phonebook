@@ -13,6 +13,7 @@ Section.propTypes = {
   title: PropTypes.string,
   children: PropTypes.oneOfType([
     PropTypes.element,
+    PropTypes.node,
     PropTypes.arrayOf(PropTypes.element),
   ]),
 };
